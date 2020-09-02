@@ -12,7 +12,6 @@ jobs:                                 # Job 설정
       - name: echo Hello              # Step 이름
         run: echo "Hello Ted!"        # Run을 통한 스크립트 실행: Hello Ted! 출력
 
- /* 
-  uses는 외부에 이미 만들어진 코드를 가져와 실행하는 것
-  위의 예제에서는 GithubActions 공식 Checkout 액션을 가져와서 실행
- */ 
+
+# uses는 외부에 이미 만들어진 코드를 가져와 실행하는 것
+# 위의 예제에서는 GithubActions 공식 Checkout 액션을 가져와서 실행
